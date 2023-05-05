@@ -1,0 +1,14 @@
+#change to which directory you wish to check, make sure you write it in bracket and separated with coma
+dir: ['C:\\Users\Lenovo\Documents\Programming\php\manggaraibaratkab\Website']
+
+#set walk to true or false, if true scanner will scan all file in subdirectory in dir, if false scanner only scan files in dir
+walk: true
+
+#where the db want to keep
+db_folder: '.'
+
+#where the alert want to send
+telegram_url: 'https://t.me/joinchat/3t06ll3bnKJjNjg1'
+
+#in how many seconds, scan is performed
+time_interval: 60

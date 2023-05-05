@@ -1,0 +1,451 @@
+/* Your CSS codes here */
+
+.ecommerce .sidebar {
+    max-width: 400px;
+}
+
+.counter-four h4 small {
+    display: inline-block;
+    margin-left: 3px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #BBB;
+}
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+.magazine h4.mag-head-double {
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #EEE;
+    border-top: 1px solid #EEE;
+}
+
+h5 {
+    line-height: 18px;
+    font-size: 15px;
+}
+/*
+.magazine-list h5 {
+    line-height: 18px;
+		font-size: auto;
+}
+
+*/
+
+
+
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a,
+h2 a:hover,
+h3 a:hover,
+h4 a:hover,
+h5 a:hover,
+h6 a:hover{
+	color: #333;
+}
+
+.header-1 .navy ul ul li a {
+    width: 300px;
+    padding: 4px 20px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #666;
+		line-height: 20px;
+}
+
+
+/* Mega Dropdown */
+
+/*
+.navbar-nav>li>.dropdown-menu {
+    margin-top:20px;
+    border-top-left-radius:4px;
+    border-top-right-radius:4px;
+}
+.navbar-default .navbar-nav>li>a {
+    width:200px;
+    font-weight:bold;
+}
+.mega-dropdown {
+    position: static !important;
+    width:100%;
+}
+.mega-dropdown-menu {
+    padding: 20px 0px;
+    width: 100%;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+.mega-dropdown-menu:before {
+    content:"";
+    border-bottom: 15px solid #fff;
+    border-right: 17px solid transparent;
+    border-left: 17px solid transparent;
+    position: absolute;
+    top: -15px;
+    left: 285px;
+    z-index: 10;
+}
+.mega-dropdown-menu:after {
+    content:"";
+    border-bottom: 17px solid #ccc;
+    border-right: 19px solid transparent;
+    border-left: 19px solid transparent;
+    position: absolute;
+    top: -17px;
+    left: 283px;
+    z-index: 8;
+}
+.mega-dropdown-menu > li > ul {
+    padding: 0;
+    margin: 0;
+}
+.mega-dropdown-menu > li > ul > li {
+    list-style: none;
+}
+.mega-dropdown-menu > li > ul > li > a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: normal;
+    line-height: 1.428571429;
+    color: #999;
+    white-space: normal;
+}
+.mega-dropdown-menu > li ul > li > a:hover, .mega-dropdown-menu > li ul > li > a:focus {
+    text-decoration: none;
+    color: #444;
+    background-color: #f5f5f5;
+}
+.mega-dropdown-menu .dropdown-header {
+    color: #428bca;
+    font-size: 18px;
+    font-weight:bold;
+}
+.mega-dropdown-menu form {
+    margin:3px 20px;
+}
+.mega-dropdown-menu .form-group {
+    margin-bottom: 3px;
+}
+.navbar-collapse.in {
+    overflow: visible;
+}
+
+.checkHeader {
+    color: red !important;
+}
+.show{
+    display: block;
+}
+.arrow1, .arrow2 {
+    position: absolute;
+    z-index: 99999;
+    display: none;
+}
+.open .arrow1, .open .arrow2 {
+    display: block;
+}
+.arrow1 span:after, .arrow2 span:after {
+    content:"";
+    border-bottom: 15px solid #fff;
+    border-right: 17px solid transparent;
+    border-left: 17px solid transparent;
+    position: absolute;
+    top: 6px;
+    left: 2px;
+}
+.arrow1 span:before, .arrow2 span:before {
+    content:"";
+    border-bottom: 17px solid #ccc;
+    border-right: 19px solid transparent;
+    border-left: 19px solid transparent;
+    position: absolute;
+    top: 4px;
+}
+.mega-dropdown-menu:after, .mega-dropdown-menu:before{border: none;} 
+*/
+
+
+
+
+/* Basic CSS ends */
+/* UI 46 */
+.ui-47{
+	margin: 20px auto;
+	max-width: 2000px;
+	border: 1px solid #ddd;
+	padding: 10px;
+	box-shadow: 1px 1px 0px 1px rgba(0,0,0,0.1);
+	border-radius:5px;
+}
+/* Heading */
+.ui-47 .ui-heading{
+	height:60px;
+}
+/* UI Image */
+.ui-47 .ui-heading .ui-image{
+	float:left;
+	width:60%;
+}
+/* Tablets */
+@media (max-width: 767px){
+	.ui-47 .ui-heading .ui-image{
+		width:60%;
+	}
+}
+/* Image */
+.ui-47 .ui-heading img{
+	float:left;
+	width:60px;
+	height:60px;
+	padding:5px;
+	border-radius:10px;
+}
+/* Heading */
+.ui-47 .ui-heading h4{
+	margin-left:65px;
+	font-size:16px;
+	font-weight:700;
+	line-height:26px;
+}
+.ui-47 .ui-heading h4 span{
+	font-size:14px;
+	display:block;
+	color:#999;
+	font-weight:400;
+}
+/* Date And Time */	
+.ui-47 .ui-heading .ui-date{
+	float:right;
+	max-width:40%;
+	font-size:13px;
+	color:#999;
+}
+/* Tablets */
+@media (max-width: 767px){
+	.ui-47 .ui-heading .ui-date{
+		width:38%;
+	}
+}
+/* Content */	
+.ui-47 .ui-content{
+	font-size:14px;
+	margin-top:10px;
+	margin-bottom:10px;
+	color:#888;
+}
+/* Footer */
+.ui-47 .ui-footer{
+	padding:10px 0px;
+}
+/* Twitter Icon */
+.ui-47 .twitter-icon{
+	float: left;
+	width: 40%;
+}	
+/* witter Button */
+.ui-47  .btn-twitter{
+	border-radius: 4px;
+	border: 1px solid #ddd;
+	font-size: 12px;
+	font-weight: 700;
+	padding:5px 8px;
+	box-shadow:0px 0px 5px rgba(0,0,0,0.1);
+}
+/* Icons */
+.ui-47 .icons{
+	float:right;
+	width:40%;
+	text-align:right;
+}
+.ui-47 .icons i{
+	color:#bbb;
+	margin-left:5px;
+}
+
+/* Custom Rafyudhi */
+
+.header-1 .navi {
+    background: #0b84cb none repeat scroll 0% 0%;
+    border-bottom: 3px solid rgb(85, 139, 212);
+}
+
+.magazine-list h5 {
+    margin-top: 0px;
+    padding-top: 0px;
+    font-weight: bold;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #FFF;
+}
+
+.header-1 .navi {
+	border-bottom:0;
+}
+
+.ecommerce .info .info-item h4 {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 26px;
+    color: #FFF;
+}
+
+.h4_featured {
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.ecommerce .info .info-item h5 {
+    margin-top: 4px;
+    font-size: 15px;
+    line-height: 14px;
+    color: #FFF;
+    font-weight: 400;
+}
+
+.bg-blue {
+	background-color: #0B84CB;
+}
+
+.bootstrap-dialog .modal-header {
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+}
+
+
+/* Main Content */
+.ui-41-main{
+	margin:10px auto;
+}
+/* Background Color */
+.ui-41 .bg-red{
+	background:#ed5441 url(../img/ui-41/overlay.png) repeat ;
+	background-size:252px 230px;
+}
+.ui-41 .bg-green{
+	background:#51d466 url(../img/ui-41/overlay.png) repeat;
+	background-size:252px 230px;
+}
+.ui-41 .bg-lblue{
+	background:#32c8de url(../img/ui-41/overlay.png) repeat;
+	background-size:252px 230px;
+}
+.ui-41 .bg-brown{
+	background:#d08166 url(../img/ui-41/overlay.png) repeat;
+	background-size:252px 230px;
+}
+.ui-41 .bg-orange{
+	background:#f8a841 url(../img/ui-41/overlay.png) repeat;
+	background-size:252px 230px;
+}
+.ui-41 .bg-blue{
+	background:#609cec url(../img/ui-41/overlay.png) repeat;
+	background-size:252px 230px;
+}
+.ui-41 .bg-rose{
+	background:#ff61e7 url(../img/ui-41/overlay.png) repeat;
+	background-size:252px 230px;
+}
+.ui-41 .bg-purple{
+	background:#cb79e6 url(../img/ui-41/overlay.png) repeat;
+	background-size:252px 230px;
+}
+/* Icon Content */
+.ui-41 .icon-content{
+	max-width:400px;
+	/* padding: 50px 22px; */
+	padding: 12px;
+	/* height: 180px; */
+	line-height: 25px;	
+	border:1px solid #fff;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+/* Icon */
+.ui-41 .icon-content img{
+	width: 80px;
+	height: 80px;
+	line-height: 70px;
+	border-radius: 100%;
+	text-align: center;
+	display:inline-block;
+	padding:18px;
+	background:#fff;
+}
+/* Span */
+.ui-41 .icon-content span{
+	display: inline-block;
+	position: relative;
+	margin-left: 12px;
+	/*
+	width: 140px;
+	top:13px;
+	*/
+	font-size:16px;
+	color:#fff;
+}
+
+
+.navbar-default .navbar-brand {
+    color: #FFFFFF;
+		font-size:18px;
+}
+
+.foot .foot-item h5 {
+    color: #CCC;
+    font-size: 14px;
+    line-height: 0px;
+    margin-bottom: 20px;
+}
+
+body {
+    line-height: 1.5;
+}
+
+#loading-mask {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #D85909;
+    font-size: 1.1em;
+    font-weight: bold;
+    height: 200%;
+    left: 0px;
+    opacity: 1;
+    position: fixed;
+    text-align: center;
+    top: 0px;
+    width: 100%;
+    z-index: 2147483647;
+}
+
+#loading-mask .loader {
+    border-color: #FFF;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 17px 43px 70px 41px;
+    box-shadow: 0px 1px 2px #000;
+    color: #333;
+    font-weight: bold;
+    height: 0px;
+    left: 50%;
+    margin-left: -60px;
+    padding: 0px;
+    position: fixed;
+    text-align: center;
+    top: 35%;
+    width: auto;
+    z-index: 2147483647;
+}
