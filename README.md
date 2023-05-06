@@ -25,4 +25,6 @@ fill config in `fim_config.yaml` and run:
     `python3 custom_fim.py`
 
 # Addition
-if u already have FIM with `elasticagent` or `auditbeat` you can use `FIM_Elastic_to_Telegram.py` instead to notif FIM log to telegram
+if u already have FIM with `elasticagent` or `auditbeat` you can use `FIM_Elastic_to_Telegram.py` instead to notif FIM log to telegram:
+
+    `python3 FIM_Elastic_to_Telegram.py`
