@@ -11,4 +11,4 @@ db_folder: '.'
 telegram_url: 'https://t.me/joinchat/3t06ll3bnKJjNjg1'
 
 #in how many seconds, scan is performed
-time_interval: 60
+time_interval: 5
