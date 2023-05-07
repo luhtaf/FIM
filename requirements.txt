@@ -1,1 +1,3 @@
-requits
+Telethon
+PyYAML
+regex
