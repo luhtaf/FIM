@@ -8,7 +8,7 @@ walk: true
 db_folder: '.'
 
 #where the alert want to send
-telegram_url: 'https://t.me/joinchat/3t06ll3bnKJjNjg1'
+telegram_url: 'url_telegram'
 
 #in how many seconds, scan is performed
 time_interval: 5
