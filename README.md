@@ -2,6 +2,12 @@
 This program is File Integrity Monitoring, that make scan your file periodically, then detect if there are creation, modification, or deletion of files in directory
 
 # Requirement
+
+## Make Telegram Bot API
+Go to  [Telegram Core](https://core.telegram.org/api/obtaining_api_id) and make api key for your apps
+
+
+## Install Pip and library
 First, install pip 
 * in ubuntu:
 
