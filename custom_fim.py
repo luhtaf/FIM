@@ -3,18 +3,17 @@ from datetime import datetime
 
 
 
-def tele_init():
+def tele_init(api_id,api_hash):
     from telethon.sync import TelegramClient, events
     # from telethon import GetAuthorizationsRequest
-    api_id = 2490290
-    api_hash = 'f5c895f410966b84ec5e5c63a2d2e92e'
+    
 
     client = TelegramClient('session_name', api_id, api_hash)
     client.start()
     return client
 
 
-client=tele_init()
+
 # DIR='./target'
 fim_config=custom_library.load_yaml('./fim_config.yaml')
 dirs=fim_config['dir']
@@ -24,6 +23,9 @@ time_interval=fim_config['time_interval']
 telegram_url=fim_config['telegram_url']
 hostname=custom_library.hostname
 ip_address=custom_library.ip_address
+api_id=fim_config['api_id']
+api_hash=fim_config['api_hash']
+client=tele_init(api_id,api_hash)
 
 
 while True:

@@ -12,3 +12,6 @@ telegram_url: 'url_telegram'
 
 #in how many seconds, scan is performed
 time_interval: 5
+
+api_id : yourapiid
+api_hash : 'yourapihash'

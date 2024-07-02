@@ -5,8 +5,8 @@ import time
 def tele_init():
     from telethon.sync import TelegramClient, events
     from telethon import GetAuthorizationsRequest
-    api_id = 2490290
-    api_hash = 'f5c895f410966b84ec5e5c63a2d2e92e'
+    api_id = '# your api id'
+    api_hash = '# your api hash'
 
     client = TelegramClient('session_name', api_id, api_hash)
     client.start()
