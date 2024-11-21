@@ -4,7 +4,7 @@ import time
 
 def tele_init():
     from telethon.sync import TelegramClient, events
-    from telethon import GetAuthorizationsRequest
+    # from telethon import GetAuthorizationsRequest
     api_id = '# your api id'
     api_hash = '# your api hash'
 
@@ -42,7 +42,7 @@ query={
 
         }
     }
-resp = es.search(index="auditbeat*", query=query,size=1000, from_=0)
+resp = es.search(index="*", query=query,size=1000, from_=0)
 
 
 client=tele_init()
