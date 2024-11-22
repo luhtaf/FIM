@@ -1,0 +1,6 @@
+telegram_url: 'url_telegram'
+
+api_id : yourapiid
+api_hash : 'yourapihash'
+
+elastic_url: 'elastic'
