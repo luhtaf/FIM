@@ -5,7 +5,7 @@ def load_yaml(path):
     with open(path, 'r') as file:
         data = yaml.safe_load(file)
     return data
-fileyaml=load_yaml('./fim_config.yaml')
+fileyaml=load_yaml('./fim_elastic.yaml')
 def tele_init():
     from telethon.sync import TelegramClient, events
     # from telethon import GetAuthorizationsRequest
