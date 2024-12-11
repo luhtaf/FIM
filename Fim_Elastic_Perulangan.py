@@ -19,7 +19,7 @@ def tele_init():
 elastic_url=fileyaml['elastic_url']
 tele_url=fileyaml['telegram_url']
 es = Elasticsearch(elastic_url, verify_certs=False)
-
+client=tele_init()
 while True:
     query={
             "bool": {
@@ -49,7 +49,6 @@ while True:
     resp = es.search(index="*", query=query,size=1000, from_=0)
 
 
-    client=tele_init()
     for i in resp['hits']['hits']:
         index=i['_index']
         _id=i['_id']
